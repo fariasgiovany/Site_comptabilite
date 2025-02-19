@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="195.09846mm"
+   height="46.042946mm"
+   viewBox="0 0 195.09846 46.042946"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="inomeado.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:lockguides="false"
+     inkscape:zoom="0.71891835"
+     inkscape:cx="122.40611"
+     inkscape:cy="50.770717"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="3832"
+     inkscape:window-y="1063"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="101.54143"
+       y="148.8347"
+       width="485.45151"
+       height="161.35352"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.0487663,-6.3004111)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.4919396,0,0,0.4919396,-44.376536,-64.60394)"
+       id="text1"
+       style="font-size:53.3333px;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#ffffff;fill-opacity:1"><tspan
+         x="101.54102"
+         y="197.49157"
+         id="tspan4">COMPTABILITÉ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14.1111px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#cccccc;stroke-width:0.264583"
+       x="115.92937"
+       y="49.499996"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.264583"
+         x="115.92937"
+         y="49.499996" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:69.6932;display:inline;fill:#fffbfb;fill-opacity:1;stroke-width:0.264583"
+       x="76.182152"
+       y="69.373604"
+       id="text3"
+       transform="matrix(1.8592993,0,0,1.8592993,-63.878444,-76.920933)"><tspan
+         x="76.182152"
+         y="69.373604"
+         id="tspan5">Contabilidade</tspan></text>
+  </g>
+</svg>
