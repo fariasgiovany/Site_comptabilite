@@ -17,6 +17,8 @@ export default function RootLayout({
       <head>
         <title>Comptabilité Contabilidade</title>
         <link rel="icon" href="/images/complogo.ico" type="image/x-icon"></link>
+        <meta name="description" content="Uma contabilidade simples e prática para seu negócio." />
+        <meta charSet="UTF-8" />
       </head>
       <body className="bg-slate-100">
       

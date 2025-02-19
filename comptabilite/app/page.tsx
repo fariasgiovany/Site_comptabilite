@@ -5,6 +5,8 @@ import IRPF from "./components/components_page/IRPF"
 export default function Home() {
   return (
     <>
+
+      
       <Body1 />
       <div id="irpf">
         <IRPF />
