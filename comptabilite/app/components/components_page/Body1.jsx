@@ -16,9 +16,8 @@ export default function Body1() {
           <h1 className='text-[#124968] text-4xl font-bold text-center max-lg:hidden '>
             Uma contabilidade simples e prática para seu negócio.
           </h1>
-          <h2 className='text-gray-600 text-lg text-justify p-4 max-lg:my-8'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar lobortis ante, vel ornare nisi maximus sed. Fusce at elit nec lorem consequat pulvinar non laoreet nisi. Cras non pulvinar tortor. Morbi aliquet ante at ullamcorper faucibus. Ut sit amet dictum leo. Nullam fringilla vulputate tempus. 
-          adsadasdsad
+          <h2 className='text-gray-600 text-lg text-center p-4 max-lg:my-8'>
+          Na Comptabilité, entendemos que a contabilidade vai além de números e impostos – ela é a base para decisões estratégicas e o crescimento sustentável da sua empresa. Com expertise, tecnologia e atendimento personalizado, oferecemos serviços contábeis que simplificam sua rotina e garantem segurança fiscal e financeira.
           
           </h2>
       
