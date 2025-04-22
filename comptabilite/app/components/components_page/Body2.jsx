@@ -8,11 +8,14 @@ export default function Body2() {
     const [prestados]=React.useState([
         {id: 1, tipo: "Abertura de empresas", descricao: ""},
         {id: 2, tipo: "Regularização fiscal", descricao: "Regualrizar sua empresa na União Estados e Municípios"},
-        {id: 3, tipo: "Abertura de empresas", descricao: "Regualrizar sua empresa na União Estados e Municípios"},
-        {id: 4, tipo: "Abertura de empresas", descricao: "Regualrizar sua empresa na União Estados e Municípios"},
-        {id: 5, tipo: "Abertura de empresas", descricao: "Regualrizar sua empresa na União Estados e Municípios"},
-        {id: 6, tipo: "Abertura de empresas", descricao: "Regualrizar sua empresa na União Estados e Municípios"},
-        {id: 7, tipo: "Abertura de empresas", descricao: "Regualrizar sua empresa na União Estados e Municípios"},
+        {id: 3, tipo: "Contabilidade Geral", descricao: "Contabilidade de toda a sua empresa"},
+        {id: 4, tipo: "Assessoria Trabalhista e Previdenciária", descricao: ""},
+        {id: 5, tipo: "Alteração e Encerramento de Empresas", descricao: ""},
+        {id: 6, tipo: "Cálculo de rescisões trabalhistas", descricao: ""},
+        {id: 7, tipo: "Regularização de MEI", descricao: "Regualrizar sua empresa na União Estados e Municípios"},
+        
+        
+        
     ]);
     
 
