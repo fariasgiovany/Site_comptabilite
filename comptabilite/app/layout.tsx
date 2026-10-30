@@ -2,7 +2,6 @@
 import "./globals.css";
 import Navbartop from "./components/Navbartop";
 import Botton from "./components/Botton";
-import Bottonmobile from "./components/Bottonmobile"
 
 
 
@@ -32,12 +31,7 @@ export default function RootLayout({
 
 
         
-        <div className="hidden lg:contents" >
-          <Botton />
-        </div>
-        <div className="hidden max-lg:contents">
-          <Bottonmobile />
-        </div>
+        <Botton />
       </body>
     </html>
   );

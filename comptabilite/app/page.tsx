@@ -1,23 +1,9 @@
-import Body1 from "./components/components_page/Body1"
-import Body2 from "./components/components_page/Body2"
-import Compempresa from "./components/components_page/Compempresa"
-import IRPF from "./components/components_page/IRPF"
-export default function Home() {
-  return (
-    <>
-
-      
-      <Body1 />
-      <div id="irpf">
-        <IRPF />
-      </div>
-      <div id="servicos">
-        <Body2  />
-      </div>
-      <div id="empresa">
-        <Compempresa />
-      </div>
-    </>
-  );
-}
-  
+﻿import Image from "next/image";
+const whatsapp = "https://wa.me/5561982127834";
+const services = ["Abertura de empresas", "Regularização fiscal", "Contabilidade geral", "Assessoria trabalhista e previdenciária", "Alteração e encerramento de empresas", "Cálculo de rescisões trabalhistas", "Regularização de MEI"];
+export default function Home() { return <main>
+<section className="hero"><div className="orb orb-one" aria-hidden="true"/><div className="orb orb-two" aria-hidden="true"/><div className="hero-inner wrap"><div><span className="eyebrow">CONTABILIDADE PARA O SEU PRÓXIMO PASSO</span><h1>Números claros.<br/><em>Decisões melhores.</em></h1><p>Uma contabilidade simples e prática para seu negócio. Cuidamos da rotina fiscal e financeira para você crescer com confiança.</p><div className="hero-actions"><a className="button" href={whatsapp} target="_blank" rel="noopener noreferrer">Converse com a gente ↗</a><a href="#servicos">Conheça os serviços ↓</a></div></div><div className="hero-photo"><Image src="/images/calculator.jpg" alt="Calculadora e documentos de trabalho" fill priority sizes="(max-width: 768px) 88vw, 42vw" quality={72}/></div></div></section>
+<section id="irpf" className="feature wrap"><div className="feature-photo lion"><Image src="/images/LionFace.png" alt="Ilustração de um leão" fill sizes="(max-width: 768px) 90vw, 42vw" quality={75}/></div><div><span className="eyebrow">IMPOSTO DE RENDA</span><h2>Seu IR, com mais tranquilidade.</h2><p>Fazemos sua declaração com precisão e atenção às deduções permitidas. Você ganha tempo e conta com orientação em cada etapa.</p><a className="button dark" href={whatsapp} target="_blank" rel="noopener noreferrer">Fale sobre seu Imposto de Renda ↗</a></div></section>
+<section id="servicos" className="services"><div className="wrap"><span className="eyebrow">COMO PODEMOS AJUDAR</span><h2>Serviços para cada fase do seu negócio.</h2><div className="service-grid">{services.map((service,index)=><a className="service-card" href={whatsapp} target="_blank" rel="noopener noreferrer" key={service}><small>{String(index+1).padStart(2,"0")}</small><h3>{service}</h3><span aria-label="Saiba mais pelo WhatsApp">↗</span></a>)}</div></div></section>
+<section id="empresa" className="feature about wrap"><div><span className="eyebrow">SOBRE A COMPTABILITÉ</span><h2>Ao seu lado, além dos números.</h2><p>Somos parceiros estratégicos do seu negócio. Unimos conhecimento contábil, tecnologia e atendimento próximo para transformar informações em decisões mais seguras.</p><p>Cuidamos da burocracia fiscal e contábil para que você possa se dedicar ao crescimento da sua empresa.</p><a className="underlined" href={whatsapp} target="_blank" rel="noopener noreferrer">Vamos conversar ↗</a></div><div className="feature-photo"><Image src="/images/desktop2.jpg" alt="Mesa de trabalho com computador" fill sizes="(max-width: 768px) 90vw, 45vw" quality={72}/></div></section>
+</main> }

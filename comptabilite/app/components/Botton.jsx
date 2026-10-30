@@ -1,48 +1,34 @@
-import React from 'react'
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Botton() {
   return (
-    <nav className="bg-rose-500 p-5 shadow-inner">
-       <div className="max-w-screen-lg flex flex-row items-center justify-between mx-auto p-2" >
-          <div className="text-white flex justify-center items-center">
-            <img src="/images/nome.svg" className='size-44 max-h-10'   alt="nomecomptabilite" />
-            <div className=" flex justify-center items-center">
-                <Link href="https://wa.me/5561982127834" target="_blank">
-                      <img src="/images/zaplogo2.png" className='max-h-10 m-4'   alt="Whats app" />
-                  
-                </Link>
-            
-            
-                <a href="https://www.instagram.com/comptabilitebsb?igsh=MWRjNm1tZDUzNnR5Ng==" target="_blank">
-                    <img src="/images/instalogo2.png" className='max-h-11 m-4'   alt="instagram" />
-                
-                </a>
-            
-                <a href="mailto:comptabilitecontabil@gmail.com" target="_blank">
-                    <img src="/images/email.png" className='max-h-11 m-4'   alt="email" />
-                    
-                </a>
-
-                <a href="tel:61 98212-7834" target="_blank">
-                    <img src="/images/telefone.png" className='max-h-11 m-4'   alt="email" />
-                    
-                </a>
-  
-            </div>
+    <footer className="site-footer">
+      <div className="site-footer-main wrap">
+        <div className="site-footer-brand">
+          <Link href="/" className="site-footer-logo">Comptabilité<span>CONTABILIDADE</span></Link>
+          <p>Contabilidade próxima para decisões mais seguras.</p>
+          <div className="site-footer-social" aria-label="Redes sociais">
+            <a href="https://wa.me/5561982127834" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>
+            <a href="https://www.instagram.com/comptabilitebsb?igsh=MWRjNm1tZDUzNnR5Ng==" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
           </div>
-          <div className='text-white'>
-            <h1>Comptabilite Contabilidade LTDA</h1>
-            <h1>CNPJ: 44.749.020/0001-35</h1>
-            <h1>Contato: <a href='tel:61 98212-7834'>(61) 98212-7834</a></h1>
-            <h1>CRC: DF 003618/O</h1>
-            <h1>Email: <a href='mailto:comptabilitecontabil@gmail.com'>comptabilitecontabil@gmail.com </a></h1>
-          </div>
-
-          
-
         </div>
-        
-    </nav>
-  )
+
+        <div className="site-footer-column">
+          <h2>Contato</h2>
+          <a href="tel:+5561982127834">(61) 98212-7834</a>
+          <a href="mailto:comptabilitecontabil@gmail.com">comptabilitecontabil@gmail.com</a>
+        </div>
+
+        <div className="site-footer-column">
+          <h2>Empresa</h2>
+          <p>Comptabilite Contabilidade LTDA</p>
+          <p>CNPJ: 44.749.020/0001-35</p>
+          <p>CRC: DF 003618/O</p>
+        </div>
+      </div>
+      <div className="site-footer-bottom">
+        <div className="wrap">© {new Date().getFullYear()} Comptabilité Contabilidade. Todos os direitos reservados.</div>
+      </div>
+    </footer>
+  );
 }

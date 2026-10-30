@@ -24,7 +24,7 @@ export default function Body2() {
   return (
     <div className=' py-14 shadow-inner shadow-slate-200'>
         
-        <div className=' pb-10'>
+        <div className='pb-10 scroll-reveal'>
             <p className='text-[#124968] text-4xl font-bold text-center'>Principais serviços prestados:</p>
 
         </div>
@@ -32,7 +32,7 @@ export default function Body2() {
 
      
         <div className='max-w-screen-lg flex mx-auto justify-center'>
-            <div className=' grid md:grid-cols-3 p-2 gap-2'>
+            <div className='grid md:grid-cols-3 p-2 gap-2 scroll-reveal-cards'>
                 {prestados.map((prestados)=>(
 
                     <Servico serv={prestados.tipo} descricao={prestados.descricao} key={prestados.id}  />

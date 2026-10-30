@@ -1,0 +1,12 @@
+services:
+  nextcomp:
+    image: nextcomp
+    build:
+      context: ./comptabilite
+      dockerfile: dockerfile
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+  
+    environment:
+      NODE_ENV: production

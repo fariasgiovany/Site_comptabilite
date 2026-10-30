@@ -1,0 +1,17 @@
+networks:
+  caddy_caddy_default:
+    external: true
+      
+services:
+  nextcomp:
+    image: nextcomp:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.node-runtime
+    environment:
+      NODE_ENV: production
+    restart: unless-stopped
+    expose:
+      - 3000
+    networks:
+      - caddy_caddy_default
